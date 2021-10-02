@@ -18,3 +18,4 @@ jobs:
         server: nl1-tr2.supercp.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        server-dir: /public_html/
